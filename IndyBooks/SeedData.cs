@@ -26,6 +26,20 @@ namespace IndyBooks
             //
             context.Books.Add(new Book
             {
+                Title = "More books",
+                Author = "Adam K",
+                Price = 1.01M,
+                Year = "2019"
+            });
+            context.Books.Add(new Book
+            {
+                Title = "Less Books",
+                Author = "Kevin James",
+                Price = 1011.01M,
+                Year = "2025"
+            });
+            context.Books.Add(new Book
+            {
                 Title = "Pride and Prejudice",
                 Author = "Jane Austin",
                 Price = 9.99M,
